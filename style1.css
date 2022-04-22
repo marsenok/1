@@ -1,0 +1,83 @@
+.page {
+  font-family: 'Montserrat', sans-serif;}
+
+.menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  max-width: 1170px;
+  min-width: 360px;
+	margin: 40px auto;
+}
+.header {
+  width: 100%;
+ position: absolute;
+ top: 0;
+ left: 0;
+ z-index: 1000;
+}
+
+.header__link {
+  font-size: 28px;
+  text-decoration: none;
+  color: #fff;
+  text-transform: uppercase;
+  
+}
+.li_list{
+  margin: 30px 0;
+}
+.menu__link {
+  font-size: 14px;
+  text-decoration: none;
+  color: #fff;
+  text-transform: uppercase;
+}
+.menu__link:last-of-type {
+  margin-right: 0;
+}
+.intro{
+  background: url("img/12.jpg");
+  background-size: cover;
+  min-width: 360px;
+}
+.intro__up{
+   height: 720px;
+background-color: rgba(0, 0, 0, .5);
+background-size: 100%;
+}
+.about{
+  min-width: 360px;
+}
+.flex-row {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  align-items: center;
+}
+.text-about{
+  font-size: 30px;
+   max-height: 550px;
+   max-width: 550px;
+   min-height: 300px;
+   min-width: 300px;
+   margin: 50px 30px;
+ }
+ .list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.photo-about{
+  margin: 0px 30px;
+   max-height: 550px;
+   max-width: 550px;
+   min-height: 300px;
+   min-width: 350px;
+   background-image: url("img/me.jpg");
+   background-size: cover;
+   background-position: center;
+  }
